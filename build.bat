@@ -1,6 +1,6 @@
 @ECHO OFF
 
-echo Let us pretend that this is building something ... and takes 20 seconds
+echo Let us pretend that this is building something ... and takes 21 seconds
 
 FOR /l %%A in (1, 1, 21) DO (
   ECHO Building [[01;31m %%A of 21 [00m]
